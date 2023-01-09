@@ -1,0 +1,6 @@
+uint8 mode # What drone mode is to be requested
+uint8 MODE_UNASSIGNED = 0
+uint8 MODE_OFFBOARD_ROS_START = 1
+uint8 MODE_OFFBOARD_ROS_END = 2
+---
+bool success

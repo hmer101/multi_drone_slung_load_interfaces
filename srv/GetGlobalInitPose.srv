@@ -1,0 +1,9 @@
+---
+# float64 lat			# Latitude, (degrees)
+# float64 lon			# Longitude, (degrees)
+# float32 alt			# Altitude AMSL, (meters)
+
+# float32[4] q        # Attitude in quaternion x,y,z,w
+
+px4_msgs/VehicleGlobalPosition global_pos
+px4_msgs/VehicleAttitude global_att

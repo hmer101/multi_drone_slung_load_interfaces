@@ -7,7 +7,10 @@
   <maintainer email="hmer101@mit.edu">harvey</maintainer>
   <license>TODO: License declaration</license>
 
-  <!--<depend>geometry_msgs</depend>-->
+  <depend>geometry_msgs</depend>
+  <depend>px4_msgs</depend>
+  <!--<depend>builtin_interfaces</depend>-->
+  <!--<depend>ros_environment</depend>-->
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <build_depend>rosidl_default_generators</build_depend>

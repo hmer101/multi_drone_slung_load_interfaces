@@ -11,15 +11,18 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-#find_package(geometry_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(px4_msgs REQUIRED)
 
 
 set(srv_files 
   "srv/ModeChange.srv"
+  "srv/GetGlobalInitPose.srv"
+  "srv/SetLocalInitPose.srv"
 )
 
 set(msg_files
-  #"msg/Num.msg"
+  #"msg/Test.msg"
   #"msg/Sphere.msg"
 )
 
@@ -27,7 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
   
-  #DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+  DEPENDENCIES geometry_msgs px4_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 
 

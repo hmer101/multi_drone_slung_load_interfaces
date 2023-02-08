@@ -18,7 +18,7 @@ find_package(px4_msgs REQUIRED)
 set(srv_files 
   "srv/ModeChange.srv"
   "srv/GetGlobalInitPose.srv"
-  "srv/SetLocalInitPose.srv"
+  "srv/SetLocalPose.srv"
 )
 
 set(msg_files

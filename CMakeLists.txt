@@ -16,14 +16,13 @@ find_package(px4_msgs REQUIRED)
 
 
 set(srv_files 
-  "srv/ModeChange.srv"
+  "srv/PhaseChange.srv"
   "srv/GetGlobalInitPose.srv"
   "srv/SetLocalPose.srv"
 )
 
 set(msg_files
-  #"msg/Test.msg"
-  #"msg/Sphere.msg"
+  "msg/Phase.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

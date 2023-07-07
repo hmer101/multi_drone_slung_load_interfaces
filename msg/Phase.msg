@@ -1,0 +1,20 @@
+uint8 phase # What drone phase is to be requested
+
+uint8 PHASE_UNASSIGNED = 0
+
+uint8 PHASE_TAKEOFF_START = 1
+uint8 PHASE_TAKEOFF_PRE_TENSION = 2
+uint8 PHASE_TAKEOFF_POST_TENSION = 3
+uint8 PHASE_TAKEOFF_END = 4
+
+uint8 PHASE_MISSION_START = 5
+uint8 PHASE_MISSION_END = 6
+
+uint8 PHASE_LAND_START = 7
+uint8 PHASE_LAND_END = 8
+
+uint8 PHASE_RTL_START = 9
+uint8 PHASE_RTL_END = 10
+
+uint8 PHASE_HOLD = 11
+uint8 PHASE_KILL = 12

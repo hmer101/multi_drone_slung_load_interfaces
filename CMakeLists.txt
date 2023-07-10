@@ -23,6 +23,7 @@ set(srv_files
 
 set(msg_files
   "msg/Phase.msg"
+  "msg/GlobalPose.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

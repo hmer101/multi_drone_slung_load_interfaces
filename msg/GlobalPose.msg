@@ -1,0 +1,2 @@
+px4_msgs/VehicleGlobalPosition global_pos
+px4_msgs/VehicleAttitude global_att
